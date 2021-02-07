@@ -20,8 +20,13 @@
       #list{border-right:1px solid gray;
             padding-top:60px;}
       #grid{display:grid;
-            grid-template-columns:1fr 2fr}
+            grid-template-columns:300px 1fr}
       #article{text-align:center;}
+        
+      @media(max-width: 700px){
+        #grid{display:block;}
+        #list{border-right:none;
+            padding-top:60px;}
 
       </article>
     </style>
